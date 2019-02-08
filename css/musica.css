@@ -1,0 +1,42 @@
+li {
+    list-style-image
+    background-color: lightgrey;
+    border-bottom: 2px solid #ddd;
+    padding: 15px;
+    margin: 15px;
+}
+ol {
+   width:500px;
+}
+
+#weather {
+  float:right;
+  position: fixed;
+  top: 125px;
+  right: 4px;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 12px 12px;
+  text-decoration: none;
+}
+
+.active {
+  /*background-color: #;*/
+
+}
+.list li{
+
+}
+.blockquote {
+    width:300px;
+    height:250px;
+}
+#iframe {
+     width:300px;
+     height: 300px;
+     padding: 10px;
+}

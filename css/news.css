@@ -1,0 +1,15 @@
+.article {
+   align:right;
+   font-family:Comic Sans MS;
+   text-size: 12px;
+   border-style:solid;
+   padding: 10px;
+   border-color: #99738E !important;
+}
+h2 {
+   align:right;
+   font-family:Comic Sans MS;
+   text-size: 12px;
+   underline: black;
+   padding: 10px;
+}

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang= "it">
+  <head>
+     <meta charset = "UTF-8"  />
+     <meta name="keywords" content="Radio, Unito, ateneo, studenti unito ">
+     <meta name="description" content="sito web di radio ateneo 110">
+     <meta name="author" content="nicolas castaneda cordoba">
+     <link rel="stylesheet" type="text/css" href="./css/style.css">
+     <title>Contact - Unito Radio Ateneo 110</title>
+  </head>
+
+<body>
+  <div class="topnav">
+    <div class="title">
+    <a href="index.html " target="_blank">
+    <img src="https://upload.wikimedia.org/wikipedia/it/thumb/4/47/Unito-logo.svg/1200px-Unito-logo.svg.png"   alt="logo"/></a>
+     <h1> Radio News Ateneo 110 </h1>
+     </div>
+     <a class="active"  href="index.html">Home</a>
+     <a class="active"  href="news.html">Notizia</a>
+     <a class="active"  href="about.html">About</a>
+     <a class="active"  href="musica.html">Musica</a>
+     <a class="active"  href="podcast.html">Podcast</a>
+     <a class="active"  href="weather.html">Meteo</a>
+     <a class="active"  href="contact.html">Contacti</a>
+    <a id="login" href="login.html">Accedi</a>
+  </div>
+
+<div class="container">
+<div class="contact-container">
+  <form action="">
+  <div class="row">
+    <div class="col-25">
+      <label for="fname">Nome</label>
+    </div>
+    <div class="col-75">
+      <input type="text" id="fname" name="firstname" placeholder="Il Tuo Nome..">
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-25">
+      <label for="lname">Cognome</label>
+    </div>
+    <div class="col-75">
+      <input type="text" id="lname" name="lastname" placeholder="Il tuo Cognome..">
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-25">
+      <label>Email</label>
+    </div>
+    <div class="col-75">
+      <input type="text" id="email" name="email" placeholder="Email">
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-25">
+      <label for="subject">Subject</label>
+    </div>
+    <div class="col-75">
+      <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-25">
+      <label>Ti a piacuto Queste sito </label>
+    </div>
+    <div class="col-75">
+      <input type="radio" name="like" value="si"> Si<br>
+      <input type="radio" name="like" value="no"> No<br>
+    </div>
+  </div>
+
+  <div class="row">
+    <input type="submit" value="Submit">
+  </div>
+
+  </form>
+</div>
+</div>
+
+</body>
+</html>

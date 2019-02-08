@@ -1,0 +1,69 @@
+li {
+  float:left;
+  font-size: 24px;
+
+}
+ul{
+  float:right
+}
+h3{
+   float:right;
+
+}
+.p {
+  align:right;
+  float:right;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  /*color: #333;*/
+}
+
+table {
+  text-align: left;
+  line-height: 40px;
+  border-collapse: separate;
+  border-bottom: 12px;
+  border-bottom-color: #333;
+  border-spacing: 0;
+  border: 2px solid #ddd;
+  margin: 50px auto;
+  border-radius: .25rem;
+}
+table img {
+  max-height: 200px;
+}
+thead tr:first-child {
+  background: #222;
+  color: #fff;
+  border: none;
+}
+th {
+  font-weight: 500;
+}
+
+thead tr:last-child th {
+  border-bottom: 3px solid #ddd;
+}
+
+tbody tr:hover {
+  background-color: #f2f2f2;
+  cursor: pointer;
+}
+
+tbody tr:last-child td {
+  border: none;
+}
+
+tbody td {
+  border-bottom: 1px solid #ddd;
+}
+
+.button {
+  color: #aaa;
+  cursor: pointer;
+  vertical-align: middle;
+  margin-top: -4px;
+}
+
