@@ -76,7 +76,7 @@ padding: 40px;
 audio {
   margin-top: 15px;
 }
-#news-photo {
+#notizia-photo {
   width: 100%;
 }
 .sidebar {
@@ -189,12 +189,12 @@ input[type=submit]:hover {
   width:10%;
   height:30%;
 }
-.weather {
+.meteo {
   text-align: center;
   margin-top: 50px;
   font-size: 30px;
 }
-.weather h3 {
+.meteo h3 {
   text-align: center;
   margin-top: 150px;
   margin-left: 100px;
